@@ -21,7 +21,7 @@ echo "    Ethereum Node: $ETHEREUM_RPC_URL"
 echo "  *********************************"
 echo
 
-docker run \
+sudo docker run \
   -e MNEMONIC="$MNEMONIC" \
   -e ETHEREUM_RPC_URL=$ETHEREUM_RPC_URL \
   -e MARKETS=$MARKETS \
